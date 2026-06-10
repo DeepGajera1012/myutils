@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "myutils-deepgajera"
+version = "0.0.1"
+authors = [
+  { name="Deep Gajera", email="deepgajera11@email.com" }
+]
+description = "Utility functions for Python"
+readme = "README.md"
+requires-python = ">=3.8"
+
+[project.urls]
+Homepage = "https://github.com/yourusername/myutils"
