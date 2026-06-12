@@ -3,8 +3,8 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "myutils-deepgajera-new"
-version = "0.0.2"
+name = "myutils-deepgajera"
+version = "0.0.3"
 authors = [
   { name="Deep Gajera", email="deepgajera11@email.com" }
 ]
@@ -13,4 +13,12 @@ readme = "README.md"
 requires-python = ">=3.8"
 
 [project.urls]
-Homepage = "https://github.com/DeepGajera1012/myutils.git"
+Homepage = "https://github.com/DeepGajera1012/myutils"
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.0.0",
+  "bandit>=1.7.0",
+  "ruff>=0.3.0",
+  "pip-audit>=2.7.0"
+]
